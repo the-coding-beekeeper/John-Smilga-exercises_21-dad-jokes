@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100vw;
+    min-height: 100vh;
+}
+.btn {
+    cursor: pointer;
+    outline: none;
+    border: none;
+    background-color: #ba5d2c;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 2rem;
+    transition: opacity 0.3s ease;
+}
+.btn:hover {
+    opacity: 0.8;
+}
+.joke {
+    margin: 2rem;
+    font-size: 1.5rem;
+}
